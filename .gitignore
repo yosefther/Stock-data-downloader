@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual envs
+.venv/
+venv/
+.env/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# uv specific
+.uv/
