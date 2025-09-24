@@ -15,6 +15,7 @@ venv/
 # uv specific
 .uv/
 
-
+#data files 
+*.json
 # test
 test.py
