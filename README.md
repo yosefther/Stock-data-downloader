@@ -21,3 +21,10 @@ Download multiple tickers at once.
 - Build a GUI (Tkinter, PyQt, Streamlit).
 - Automate with a scheduler (download daily after market close).
 - Support different APIs (Yahoo Finance, Alpha Vantage, Polygon).
+
+#TODO
+- [ ]  fetch the symbole name form the info insted of the user input
+- [ ]  fox the naming system
+- [ ]  parsing text to json  ( Metadata / Company info /Calendar / dividends / earnings / Analyst price targets 'for small set'  )
+- [ ]  parsing text to CSV (history)
+- [ ]  parsing text to SQL  (Historical OHLC data / Financial statements / Analyst price targets 'for bieggr sets'   )
