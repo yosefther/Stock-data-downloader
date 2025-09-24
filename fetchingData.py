@@ -15,6 +15,8 @@ class FetchData :
             print(pretty_json)
             file.write(pretty_json)
 
+    def to_csv():
+        pass
 
     def clientInput(self) :
         try:
@@ -47,6 +49,8 @@ class FetchData :
                 pass
             elif query_type == "5":
                 # Earnings
+                # self.to_json(self.ticker_obj.dividends, "test")
+                print(type(self.ticker_obj.dividends))
                 #TODO : fix
                 # ``` 
                 #     self.to_json(self.ticker_obj.earnings, "earnings")
