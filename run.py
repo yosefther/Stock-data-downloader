@@ -1,5 +1,5 @@
+from fetchingData import FetchData as fd
 
 
-class Run:
-    if __name__ == "__mian__":
-        pass
+if __name__ == "__main__":
+     fd("nvda").clientInput()
